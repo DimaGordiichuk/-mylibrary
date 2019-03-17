@@ -1,0 +1,121 @@
+<?php include 'ajax.php'; ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Макет Mercedes</title>
+        <link href="/tasks/task-3/style.css" type="text/css" rel="stylesheet">
+        
+        
+    </head>
+    
+    <body>
+        <div class="image">
+        
+<!--        <div class="znak"><img src="/tasks/task-3/img/Merc.jpg"></div>-->
+        
+       
+        
+        <div id="imgHolder" class="imgHolder">
+            
+            <img src="/tasks/task-3/img/black2.jpg" alt="Автомобіль">
+            
+            
+            
+            <div class="model-summary" >
+                
+                <div class="model-name">Mercedec-Benz GLE-Class</div>
+                <div class="model-specs" id="modelSpecs"></div>
+                <div class="model-price" id="modelPrice"></div>
+                <div class="model-price" id="modelPriceUSD"></div>
+                <div class="button">Замовити</div>
+                
+            </div>
+            
+        </div>
+        
+        
+        <form id="autoForm">
+            <h2>Побудуй для себе авто</h2>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <h4>Мотор</h4>
+                    
+                    <div class="form-block">  
+                        <input type="radio" name="engine" id="engine3400" value="2000000" checked>
+                        <label for="engine3400">3.4 л ( 500 к.с )</label>   
+                    </div>
+                    
+                    <div class="form-block">  
+                        <input type="radio" name="engine" id="engine4000" value="2200000">
+                        <label for="engine4000">4.0 л ( 600 к.с )</label>   
+                    </div>    
+                </div>
+                
+                <div class="col-1-of-3">
+                    <h4>Коробка передач</h4>
+                    
+                    <div class="form-block">
+                        <input type="radio" name="transmission" id="transmission6MT" value="0" checked>
+                        <label for="transmission6MT">Механіка, 6-ти ступенева (6 MT)</label>
+                    </div>
+                    
+                    <div class="form-block">
+                        <input type="radio" name="transmission" id="transmission6AT" value="100000">
+                        <label for="transmission6AT">Автомат, 6-ти ступенева (6 AT)</label>
+                    </div>
+                    
+                </div>
+                
+                
+                <div class="col-1-of-3">
+                    <h4>Пакет (додаткові опції)</h4>
+                    
+                    <div class="form-block">
+                        <input type="radio" name="package" id="packageActive" value="0" checked>
+                        <label for="packageActive">Active</label>
+                    </div>
+                    <div class="form-block">
+                        <input type="radio" name="package" id="packageActivePlus" value="40000">
+                        <label for="packageActivePlus">Active Plus (кондиціонер)</label>
+                    </div>
+                    <div class="form-block">
+                        <input type="radio" name="package" id="packageComfort" value="80000">
+                        <label for="packageComfort">Comfort (кліматконтроль)</label>
+                    </div>
+                    
+                </div>
+            </div>
+                
+                <h4>Колір</h4>
+                
+                <div class="form-block">
+                    
+                    <div id="colorsSelector" class="colorsSelector">
+
+                        <div class="colorItem colorBlue" data-img-path="/tasks/task-3/img/blue2.jpg"></div>
+                        <div class="colorItem colorWhite" data-img-path="/tasks/task-3/img/white2.jpg"></div>
+                        <div class="colorItem colorRed" data-img-path="/tasks/task-3/img/red2.jpg"></div>
+                        <div class="colorItem colorBlack" data-img-path="/tasks/task-3/img/black2.jpg"></div>
+                        <div class="colorItem colorBrown" data-img-path="/tasks/task-3/img/brown2.jpg"></div>
+                        <div class="colorItem colorMetallic" data-img-path="/tasks/task-3/img/metallic2.jpg"></div>
+
+                    </div>
+                    
+                </div>
+                
+            
+        </form>
+        
+        </div>
+        
+        
+        
+        
+        
+
+        <script src="/www/jquery-3.2.1.min.js"></script>
+        <script src="/tasks/task-3/script.js"></script>
+           
+        
+    </body> 
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    
+}
+
+.image {
+    background: url(/tasks/task-3/img/2.jpg) no-repeat;
+    background-size: 1340px 800px;
+/*    background-color: #FFF2B0;*/
+/*    width: 1340px;*/
+    
+/*    //background-image: url(/tasks/task-3/img/Merc.jpg);
+    background-position: 0% 0% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+
+.imgHolder{
+    display: flex;
+}
+/*.row{
+    display: flex;
+}*/
+
+.model-summary{
+    background: #70DEF4;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 35px;
+    position: absolute;
+    left: 75%;
+}
+.model-name{
+    color: #00985D;
+}
+.col-1-of-3{
+    margin:0 30px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    padding: 1px;
+}
+
+/*#autoForm{
+    background-image: url(/tasks/task-3/img/Merc.jpg);
+    display: inline;
+}*/
+#autoForm h2{
+    background-color: rgba(244, 239, 235, 0.8);
+    width: 280px;
+    
+}
+
+.row {
+    background-color: rgba(244, 239, 235, 0.8);
+    width: 800px;
+/*    background-opacitty: 0.5;*/
+/*    opacity: 0.5;*/
+    display: flex;
+    color: black;
+}
+
+.colorsSelector {
+    display: flex;
+}
+
+
+
+.colorItem{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 35px;
+    margin: 10px;
+}
+.colorBlue{
+    background-color: #024089;
+}
+.colorWhite{
+    background-color: white;
+    
+
+}
+.colorRed{
+    background-color: #AC2728;
+}
+.colorBlack{
+    background-color: black;
+}
+.colorBrown {
+   background-color: #762A00; 
+}
+
+.colorMetallic {
+    background-color: #CDCED0; 
+}
+
+/*.form-block {
+    display: inline-block;
+}*/
+
+/*.colorSelector{
+    display: inline;
+}*/
+.model-price{
+    color: #5b75ff;
+}
+    
+    
+    
+    
+    
